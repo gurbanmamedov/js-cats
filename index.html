@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cats</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="content_header">
+      <select class="breed-select"></select>
+    </div>
+    <div class="cat-info">
+      <span class="loader"></span>
+      <img class="cat-image" src="" alt="Cat" />
+      <p class="cat-name"></p>
+      <p class="cat-description"></p>
+      <p class="cat-temperament"></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="./src/JS/cat-api.js" type="module"></script>
+    <script src="./src/JS/index.js" type="module"></script>
+  </body>
+</html>
